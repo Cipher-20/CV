@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+:root{
+    --color-body: #FFFFFF;;
+    --color-base2: #00296B;
+    --sidbar-width: 240px;
+    --font-base: "PT Mono";
+
+}
+
+#background{
+    background-color:  var(--color-base2);
+}
+
+.classStyleNavElement{
+    color:var(--color-body);
+    font-family: var(--font-base);
+    text-decoration: none;
+    font-size: 36px;
+    padding: 50px;
+}
+
+#navbarNav{
+    box-shadow: 0px 5px 10px  #FFFFFF;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    /* transition: all 0.4 ease; */
+}
+
+/* a:hover{
+   
+} */
+
+img{
+    width: 100%;
+}
