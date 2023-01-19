@@ -27,6 +27,7 @@
     box-shadow: 0px 5px 10px    black;
 }
 
+
 #small-box {
     position: absolute;
     width:  450px;
@@ -62,10 +63,6 @@ a{
     /* transition: all 0.4 ease; */
 }
 
-/* a:hover{
-   
-} */
-
 img{
     width: 100%;
 }
@@ -88,5 +85,4 @@ img{
 
     font-weight: 400;
     font-size: 50px;
-
 }
