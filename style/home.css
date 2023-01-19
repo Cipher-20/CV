@@ -8,8 +8,6 @@
 
 }
 
-
-
 #background{
     background-color:  var(--color-base2);
     color: white;
@@ -29,7 +27,8 @@
 
 
 #small-box {
-    position: absolute;
+    position: fixed;
+
     width:  450px;
     height: 450px;
     left: 700px;
@@ -41,8 +40,8 @@
 
  #big-box{
     box-sizing: border-box;
+    position: fixed;
 
-    position: absolute;
     width: 659px;
     height: 700px;
     left: 444px;
@@ -85,3 +84,6 @@ img{
     font-weight: 400;
     font-size: 50px;
 }
+
+
+    
