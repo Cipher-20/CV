@@ -1,8 +1,6 @@
-
-.about-info{
-    
+.about-info{  
 position: absolute;
-width: 1020px;
+width: 998px;
 height: 600px;
 left: 450px;
 top: 200px;
@@ -13,7 +11,6 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 100%, rgba(255, 255
 }
 
 .border-about{
-    
     position: absolute;
     width: 600px;
     height: 0px;
@@ -24,12 +21,17 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 100%, rgba(255, 255
     transform: rotate(90deg);
 }
 
+.about-paragraphs{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+}
+
 .important-word{
     
     color: #FDC500;
 }
 
-p{
-    font-size: 25px;
-}
+
 

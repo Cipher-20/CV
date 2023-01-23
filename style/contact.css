@@ -1,15 +1,12 @@
-
-
 .block-contact{
     background: #fff;
     border-radius: 15px;
-    z-index: 1;
-    margin-top: 200px;
     width: 900px;
     height: 600px;
     color: #000;
     margin-left: 200px;
     position: absolute;
+    padding-bottom: 60px;
 }
 
 .inner-container{
@@ -41,12 +38,12 @@
     margin-bottom: 0rem;
     margin-top: 0;
     font-size: 30px;
-    left: 150px;
+    padding-left: 150px;
 
     text-decoration: none;
 }
 
-p{
+.contact-paragraphs{
         padding-top: 10px;
         font-size: 30px;
         font-weight: 500;
@@ -59,6 +56,5 @@ p{
 .title{
     font-size: 30px;
     font-weight: 700;
-
 }
 
