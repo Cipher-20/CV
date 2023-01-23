@@ -26,8 +26,9 @@
 }
 
 
+
 #small-box {
-    position: fixed;
+    position:absolute;
 
     width:  450px;
     height: 450px;
@@ -40,7 +41,7 @@
 
  #big-box{
     box-sizing: border-box;
-    position: fixed;
+    position: relative;
 
     width: 659px;
     height: 700px;
@@ -61,9 +62,6 @@ a{
     color: white;
 }
 
-img{
-    width: 100%;
-}
 
 .nameStyle{
     width:  1000px;
@@ -87,3 +85,4 @@ img{
 
 
     
+

@@ -1,63 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-
-:root{
-    --color-body: #FFFFFF;;
-    --color-base2: #00296B;
-    --sidbar-width: 240px;
-    --font-base: "PT Mono";
-
-}
-
-
-
-#background{
-    background-color:  var(--color-base2);
-    color: white;
-}
-
-.classStyleNavElement{
-    color:var(--color-body);
-    font-family: var(--font-base);
-    text-decoration: none;
-    font-size: 36px;
-    padding: 50px;
-}
-
-#navbarNav{
-    box-shadow: 0px 5px 10px    black;
-}
-
-.border{
+.border-skills{
     
     position: absolute;
     width: 600px;
     height: 0px;
-    left: 170px;
-    top: 500px;
+    left: 150px;
+    margin-top: 500px;
 
-    border: 10px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     transform: rotate(90deg);
 }
 
 
 .skill-info{
-    position: absolute;
+    
+    position:relative;
     width: 600px;
     height: 1000px;
-    left: 670px;
+    left: 648px;
     top: 0px;
     
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 100%, rgba(255, 255, 255, 0.08) 0%);
     transform: matrix(0, 1, 1, 0, 0, 0);
-
-}
-
-
-
-
-a{
-    text-decoration: none;
-    color: white;
 
 }
 
